@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in Dockerfiles: using `ubuntu:latest` and inefficient package installation.  Using a specific Ubuntu version ensures reproducibility, while combining `apt-get update` and `install` improves efficiency. The solution provides a corrected Dockerfile that addresses these issues.
